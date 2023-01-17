@@ -2,7 +2,6 @@
 
 Public Class SqlEvents
 
-    'Private connectionString As String = "Data Source=localhost;Database=db;Integrated Security=False;User ID=sa;Password=pwd;Connect Timeout=30;Encrypt=False;"
     Private ConnectionString As String = "Data Source={0};Database={1};User ID={2};Password={3};Connect Timeout={4};"
     Property IsConnection As Boolean = False
 
