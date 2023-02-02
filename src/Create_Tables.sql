@@ -14,4 +14,3 @@ CREATE TABLE [dbo].[t_cbr_items](
 	[ISO_Char_Code] [nvarchar](3) NOT NULL
 ) ON [PRIMARY]
 
-
