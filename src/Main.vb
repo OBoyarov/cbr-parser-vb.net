@@ -1,4 +1,4 @@
-﻿Imports System.Net
+Imports System.Net
 Imports System.Xml
 
 Public Class Main
@@ -13,7 +13,7 @@ Public Class Main
     Private SessionStorage As New DataTable
 
     Private Sub Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        SqlEvent = New SqlEvents("localhost", "db", "sa", "WT3PXs67")
+        SqlEvent = New SqlEvents("localhost", "db", "user", "pass")
         If Not SqlEvent.IsConnection Then
             MsgBox("Error establishing a database connection", MsgBoxStyle.Critical)
             Application.Exit()
